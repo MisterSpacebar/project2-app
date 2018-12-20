@@ -10,9 +10,7 @@ exports.signin = function (req, res) {
 }
 
 exports.dashboard = function (req, res) {
-    var currentUser = JSON.stringify(req.user)
-    console.log("USER: "+currentUser);
-    res.render('dashboard', {curUser: currentUser.id});
+    res.render('dashboard');
 }
 
 exports.logout = function (req, res) {

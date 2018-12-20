@@ -1,6 +1,6 @@
-/* body{
-     background-color: #8590AA;
-} */
+body{
+    /* background-color: #8590AA; */
+}
 
 .logo{
     width: 250px;
@@ -23,6 +23,18 @@
 }
 
 #logout{
+    float: right;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+#search{
+    float: right;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+#inventory{
     float: right;
     margin-right: 40px;
     margin-top: 20px;
