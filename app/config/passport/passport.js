@@ -101,6 +101,8 @@ module.exports = function (passport, user) {
                 }
 
                 var userinfo = user.get();
+                var thisUser = JSON.stringify(userinfo);
+                console.log("(Passport.js) USER: "+thisUser);
 
                 return done(null, userinfo);
 
